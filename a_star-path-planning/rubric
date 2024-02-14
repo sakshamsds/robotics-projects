@@ -1,0 +1,14 @@
+Part 1: A* Path Planning (50 pts)
+    (20) Sequence of cells (e.g. print on terminal if not plotted)
+    (20) Clear plot with correct output of the path on the plot
+    (10) Using ros params to define goal point so we can change the target coordinate easily 
+    
+-------
+Part 2: Single Step Execution (20 pts)
+    (10) Movement/turning of the robot towards the goal
+    (10) Stopping when reaching goal
+-------
+Part 3: Full Execution (30 pts)
+    (10) Identifying the proximity (e.g. any output on terminal)
+    (10) Correct transition between cells
+    (10) Full execution and termination upon completion.

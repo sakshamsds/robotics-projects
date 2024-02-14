@@ -1,0 +1,6 @@
+<launch>
+    <node name="kitti_publisher" pkg="lab4" type="view_kitti.py" output="screen">
+        <param name="fps" type="int" value="10" />
+    </node>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find lab4)/rviz/lab4_kitti.rviz"></node>
+</launch>

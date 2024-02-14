@@ -1,0 +1,3 @@
+<launch>
+    <node name="lab4_cal" pkg="lab4" type="lab4_cal.py" output="screen"></node>
+</launch>

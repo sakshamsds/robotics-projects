@@ -1,0 +1,13 @@
+Part 1: Prediction (30 pts)
+    (10) Reading and parsing commands correctly
+    (10) Prediction step around the center of the map
+    (10) Prediction step around the edges of the map
+    
+-------
+Part 2: Observation (40 pts)
+    (20) Two dimensions independently
+    (20) Correct total probability
+-------
+Part 3: Update (30 pts)
+    (15) Initial plot
+    (15) Correct update with each step

@@ -1,0 +1,22 @@
+<launch>
+
+    <node name="bug2" pkg="lab3" type="bug2.py" output="screen">
+        <!-- Test 1 - Pass -->
+        <param name="x" type="double" value="7.0" />
+        <param name="y" type="double" value="1.0" />
+
+        <!-- Test 2 - Pass -->
+        <!-- <param name="x" type="double" value="7.0" /> -->
+        <!-- <param name="y" type="double" value="4.0" /> -->
+
+        <!-- Test 3 - Pass-->
+        <!-- <param name="x" type="double" value="-6.0" /> -->
+        <!-- <param name="y" type="double" value="-2.0" /> -->
+
+        <!-- Test 4 - Pass -->
+        <!-- <param name="x" type="double" value="-4.0" /> -->
+        <!-- <param name="y" type="double" value="-8.0" /> -->
+
+
+    </node>
+</launch>

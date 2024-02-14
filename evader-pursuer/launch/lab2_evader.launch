@@ -1,0 +1,3 @@
+<launch>
+    <node name="evader" pkg="lab2" type="evader1.py" output="screen"></node>
+</launch>

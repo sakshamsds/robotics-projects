@@ -1,0 +1,4 @@
+<launch>
+    <node name="lab4_bag" pkg="rosbag" type="play" output="screen" args="--clock $(find lab4)/bag/sample.bag" />
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find lab4)/rviz/lab4_bag.rviz"/>
+</launch>   

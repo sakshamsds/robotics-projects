@@ -1,0 +1,15 @@
+<!--suppress XmlHighlighting -->
+<launch>
+	<include file="$(find husky_gazebo)/launch/playpen.launch"/>
+	<include file="$(find husky_gazebo)/launch/spawn_husky.launch"/>
+
+	<node name="a_star" pkg="lab5" type="a_star.py" output="screen">
+
+        <!-- algorithm doesn't work for -5, 9 goal -->
+        <param name="goalx" type="double" value="-5.0" />
+        <param name="goaly" type="double" value="9.0" />
+        
+        <!-- <param name="goalx" type="double" value="5.0" /> -->
+        <!-- <param name="goaly" type="double" value="9.0" /> -->
+    </node>
+</launch>
